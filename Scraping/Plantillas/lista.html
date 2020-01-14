@@ -1,0 +1,25 @@
+<HTML>
+
+    <HEAD>
+        Resultados de scraping
+    </HEAD>
+
+    <BODY>
+
+        
+        <table class="egt">
+                {% for objeto in lista %}
+                    <tr>
+                    
+                    <td>{{objeto.titulo}}</td>
+              
+                    <td>{{objeto.precio}}</td>
+              
+                    <td>{{objeto.envio}}</td>
+              
+                    </tr>
+              {% endfor %}
+              </table>
+    </BODY>
+
+</HTML>
